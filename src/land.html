@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Furniture Store</title>
+    <link rel="stylesheet" href="land.css">
+</head>
+<body>
+     Top Header 
+    <div class="top-header">
+        <div class="top-header-content">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <span>BRAND NAME</span>
+            </div>
+            <div class="header-icons">
+                <button class="icon-btn" aria-label="Settings">⚙️</button>
+                <button class="icon-btn" aria-label="Cart">🛒</button>
+                <button class="icon-btn" aria-label="Menu">☰</button>
+            </div>
+        </div>
+    </div>
+
+     Navigation 
+    <nav>
+        <div class="nav-content">
+            <ul class="nav-menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#store">STORE</a></li>
+                <li><a href="#accessories">ACCESSORIES</a></li>
+                <li><a href="#brand">BRAND</a></li>
+                <li><a href="#pages">PAGES</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+            
+            <div class="search-container">
+                <div class="search-bar">
+                    <input type="text" placeholder="Search..." id="searchInput">
+                </div>
+                <button class="search-btn" onclick="performSearch()">Search</button>
+            </div>
+
+            <div class="utility-links">
+                <a href="#track">📦 Track order</a>
+                <a href="#compare">⚖️ Compare (0)</a>
+                <a href="#wishlist">♡ Wishlist (0)</a>
+            </div>
+        </div>
+    </nav>
+
+     Hero Section 
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="/placeholder.svg?height=400&width=400" alt="Modern Chair">
+            </div>
+            <div class="hero-text">
+                <div class="hero-label">HOT DEALS THIS WEEK</div>
+                <h1 class="hero-title">SALE 50% OFF<br>MODERN FURNITURE</h1>
+                <button class="btn-primary">VIEW MORE</button>
+            </div>
+        </div>
+        <div class="hero-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+     Featured Products 
+    <section class="featured-products">
+        <div class="product-card">
+            <img src="/Asset/V chair.png" alt="Vintage Chair" class="product-image">
+            <div class="product-info">
+                <h3 class="product-title">INV VINTAGE CHAIR</h3>
+                <button class="btn-secondary">VIEW DETAILS</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="/Asset/vase.png" alt="Terracotta Vase" class="product-image">
+            <div class="product-info">
+                <h3 class="product-title">LARGE TERRACOTTA VASE</h3>
+                <button class="btn-secondary">VIEW DETAILS</button>
+            </div>
+        </div>
+    </section>
+
+     Product Grid 
+    <section class="product-grid">
+        <div class="grid-item promo-card">
+            <h3 class="promo-title">DECOR</h3>
+            <p class="promo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="btn-primary">VIEW ALL</button>
+        </div>
+        <div class="grid-item">
+            <img src="/placeholder.svg?height=250&width=250" alt="Linen Beach Towel" class="grid-item-image">
+            <div class="grid-item-info">
+                <div class="grid-item-title">Linen Beach Towel</div>
+                <div class="grid-item-price">30$</div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="/placeholder.svg?height=250&width=250" alt="Glass Box" class="grid-item-image">
+            <div class="grid-item-info">
+                <div class="grid-item-title">Square Clear Glass Box</div>
+                <div class="grid-item-price">30$</div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="/placeholder.svg?height=250&width=250" alt="Ceramic Plates" class="grid-item-image">
+            <div class="grid-item-info">
+                <div class="grid-item-title">4-pack Small Ceramic Plates</div>
+                <div class="grid-item-price">30$</div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="/placeholder.svg?height=250&width=250" alt="Glass Box" class="grid-item-image">
+            <div class="grid-item-info">
+                <div class="grid-item-title">Large Clear Glass Box</div>
+                <div class="grid-item-price">30$</div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="/placeholder.svg?height=250&width=250" alt="Jute Placemat" class="grid-item-image">
+            <div class="grid-item-info">
+                <div class="grid-item-title">Round Jute Placemat</div>
+                <div class="grid-item-price">30$</div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="/placeholder.svg?height=250&width=250" alt="Wire Basket" class="grid-item-image">
+            <div class="grid-item-info">
+                <div class="grid-item-title">Metal Wire Basket</div>
+                <div class="grid-item-price">30$</div>
+            </div>
+        </div>
+        <div class="grid-item promo-card">
+            <h3 class="promo-title">BOHO CHIC</h3>
+            <p class="promo-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button class="btn-primary">VIEW ALL</button>
+        </div>
+    </section>
+
+     Banner Section 
+    <section class="banner-section">
+        <div class="banner">
+            <div class="banner-text">
+                <h2 class="banner-title">BEDSHEET SETS</h2>
+                <div class="banner-price">
+                    $50.00 <span class="old-price">$87.00</span>
+                </div>
+                <p class="banner-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="banner-image">
+                <img src="/placeholder.svg?height=300&width=500" alt="Bedsheet Sets">
+            </div>
+        </div>
+    </section>
+
+     Top Rating Section 
+    <section class="top-rating">
+        <h2 class="section-title">TOP RATING</h2>
+        <div class="rating-grid">
+            <div class="rating-card">
+                <img src="/placeholder.svg?height=150&width=150" alt="Tray" class="rating-image">
+                <div class="rating-name">Tray</div>
+                <div class="stars">★★★★★</div>
+                <div class="rating-price">30$</div>
+            </div>
+            <div class="rating-card">
+                <img src="/placeholder.svg?height=150&width=150" alt="Seat Cushion" class="rating-image">
+                <div class="rating-name">Teal Seat Cushion</div>
+                <div class="stars">★★★★★</div>
+                <div class="rating-price">30$</div>
+            </div>
+            <div class="rating-card">
+                <img src="/placeholder.svg?height=150&width=150" alt="Glass" class="rating-image">
+                <div class="rating-name">Fluted Beverage Glass</div>
+                <div class="stars">★★★★★</div>
+                <div class="rating-price">30$</div>
+            </div>
+            <div class="rating-card">
+                <img src="/placeholder.svg?height=150&width=150" alt="Egg Cup" class="rating-image">
+                <div class="rating-name">Ceramic Egg Cup</div>
+                <div class="stars">★★★★★</div>
+                <div class="rating-price">30$</div>
+            </div>
+            <div class="rating-card">
+                <img src="/placeholder.svg?height=150&width=150" alt="Bamboo Box" class="rating-image">
+                <div class="rating-name">Small Bamboo Box</div>
+                <div class="stars">★★★★★</div>
+                <div class="rating-price">30$</div>
+            </div>
+            <div class="rating-card">
+                <img src="/placeholder.svg?height=150&width=150" alt="Cutlery Basket" class="rating-image">
+                <div class="rating-name">Metal Cutlery Basket</div>
+                <div class="stars">★★★★★</div>
+                <div class="rating-price">30$</div>
+            </div>
+            <div class="rating-card">
+                <img src="/placeholder.svg?height=150&width=150" alt="Ceramic Cups" class="rating-image">
+                <div class="rating-name">4-pack Ceramic Cups</div>
+                <div class="stars">★★★★★</div>
+                <div class="rating-price">30$</div>
+            </div>
+            <div class="rating-card">
+                <img src="/placeholder.svg?height=150&width=150" alt="Linen Napkins" class="rating-image">
+                <div class="rating-name">2-pack Linen Napkins</div>
+                <div class="stars">★★★★★</div>
+                <div class="rating-price">30$</div>
+            </div>
+            <div class="rating-card">
+                <img src="/placeholder.svg?height=150&width=150" alt="Stoneware Plate" class="rating-image">
+                <div class="rating-name">Glazed Stoneware Plate</div>
+                <div class="stars">★★★★★</div>
+                <div class="rating-price">30$</div>
+            </div>
+        </div>
+    </section>
+
+     Newsletter 
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h2 class="newsletter-title">SING UP FOR OUR NEWSLETTER</h2>
+            <p class="newsletter-text">Subscribe for the latest deals and promotions</p>
+            <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+                <input type="email" class="newsletter-input" placeholder="Enter your e-mail address" required>
+                <button type="submit" class="newsletter-btn">→</button>
+            </form>
+        </div>
+    </section>
+
+     Footer 
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>BRAND NAME</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.</p>
+                <div class="contact-info">
+                    <p>184 Main Rd E, St Albans VIC 3021, Australia</p>
+                    <p>+12 3 4567 890</p>
+                    <p>contact@company.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">t</a>
+                    <a href="#" aria-label="YouTube">▶</a>
+                    <a href="#" aria-label="Pinterest">P</a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>SHOPPING</h3>
+                <ul>
+                    <li><a href="#">Your cart</a></li>
+                    <li><a href="#">Your orders</a></li>
+                    <li><a href="#">Compared items</a></li>
+                    <li><a href="#">Wishlist items</a></li>
+                    <li><a href="#">Shipping detail</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>MORE LINKS</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Our Blog</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Discount</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>PROMO UPDATE</h3>
+                <div class="promo-item">
+                    <div class="promo-date">14 <span class="promo-month">Jan</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="promo-item">
+                    <div class="promo-date">15 <span class="promo-month">Jan</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 Brand Name Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="land.js"></script>
+</body>
+</html>

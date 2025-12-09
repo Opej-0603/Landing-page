@@ -1,0 +1,351 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+.content{
+    display: flex;
+    width: 90%;
+    gap: 53rem;
+}
+
+#Logo{
+    width: 20px;
+    height: 20px;
+}
+.pics{
+    display: flex;
+    gap: 1rem;
+    width: 20px;
+    height: 20px;
+}
+.container {
+    width: 1440px;
+    margin: auto;
+    padding: 2rem;
+    background: #F3F6FF;
+    height: 5117px;
+}
+nav {
+    display: flex;
+    background: white;
+    padding: 8px;
+    width: 1296px;
+    height: 41px;
+    left: 84px;
+    top: 95px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.cont{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 30px;
+}
+.layer-one{
+    display: flexbox;
+    justify-content: center;
+    background-color: rgb(141, 111, 111);
+    align-items: center;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+}
+.layer-one img {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 4px;
+}
+button{
+    background-color: aqua;
+    color: black;
+    width: 70px;
+    height: 30px;
+}
+.layer-two{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    gap: 15rem;
+    margin-top: 50px;
+}
+.layer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 20px;
+    height: 20px;
+    text-size-adjust: 15px;
+}
+#furniture{
+    width: 1370px;
+    height: 400px;
+    margin-top: 30px;
+}
+.grid{
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+.grid-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+.grid-one{
+    background-color: red;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    margin: 10px;
+}
+.grid-two{
+    background-color: blue;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    margin: 10px;
+}
+.grid-three{
+    background-color: green;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    margin: 10px;
+}
+.grid-four{
+    background-color: yellow;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    margin: 10px;
+}
+.grid-five{
+    background-color: purple;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    margin: 10px;
+}
+.grid-six{
+    background-color: orange;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    margin: 10px;
+}
+.grid-seven{
+    background-color: pink;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    margin: 10px;
+}
+.grid-eight{
+    background-color: brown;
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    margin: 10px;
+}
+.footer{
+    display: flex;
+    width: 1440px;
+    height: 200px;
+    background-color: black;
+    margin-top: 50px;
+}
+.foot-one{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    gap: 1rem;
+    flex-direction: column;
+}
+.foot-two{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    gap: 1rem;
+    flex-direction: column;
+}
+.foot-three{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    gap: 1rem;
+    flex-direction: column;
+}
+.foot-four{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    gap: 1rem;
+    flex-direction: column;
+}
+.socials{
+    display: flex;
+    gap: 1rem;
+    margin-top: 20px;
+}
+.socials img{
+    width: 20px;
+    height: 20px;
+}
+.foot-four img{
+    width: 20px;
+    height: 20px;
+}
+.foot-four button{
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    color: black;
+}
+.foot-four input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.foot-one h3, .foot-two h3, .foot-three h3, .foot-four h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.foot-one p, .foot-two p, .foot-three p, .foot-four p{
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+}
+.foot-one a, .foot-two a, .foot-three a{
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    text-decoration: none;
+}
+.foot-one a:hover, .foot-two a:hover, .foot-three a:hover{
+    color: white;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 1rem;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .layer-two {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+        padding: 1rem;
+    }
+    .foot-one, .foot-two, .foot-three, .foot-four {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+@media (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 320px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+    .layer-one {
+        width: 100%;
+        justify-content: center;
+    }
+}
+    .layer-two {
+        width: 100%;
+        justify-content: center;
+    }
+    .grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six, .grid-seven, .grid-eight {
+        width: 100%;
+        height: auto;
+    }
+    .foot-four input {
+        width: 100%;
+    }
+
+@media (min-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .grid-one, .grid-two, .grid-three, .grid-four, .grid-five, .grid-six, .grid-seven, .grid-eight {
+        width: 170px;
+        height: 170px;
+    }
+    .footer {
+        flex-direction: row;
+        height: 200px;
+    }
+    .foot-one, .foot-two, .foot-three, .foot-four {
+        width: 400px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .foot-four input {
+        width: 200px;
+    }
+}
+@media (min-width: 1600px) {
+    .container {
+        width: 1440px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .container {
+        width: 1800px;
+    }
+}
+@media (min-width: 2400px) {
+    .container {
+        width: 2160px;
+    }
+}
